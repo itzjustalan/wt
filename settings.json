@@ -128,6 +128,7 @@
                 // "icon": "C:\\Users\\alanj\\Documents\\icons\\debt16.ico",
                 "startingDirectory": "//wsl$/Debian/home/alanj",
                 "colorScheme": "linux",
+                "fontFace": "consolas",
                 "suppressApplicationTitle": true,
                 "acrylicOpacity": 0.7,
                 "useAcrylic": true,
@@ -145,6 +146,20 @@
                 "backgroundImageAlignment": "bottomRight",   // "center" , "left" , "top" , "right" , "bottom" , "topLeft" , "topRight" , "bottomLeft" , "bottomRight"
                 "backgroundImageOpacity": 0.5,     //floating point value from 0-1
                 "hidden": false
+            },
+            {
+                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "name": "kali-linux",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "//wsl$/kali-linux/home/strix/",
+                "colorScheme": "linux",
+                "suppressApplicationTitle": true,
+                // " backgroundImage": ,
+                "backgroundImageStretchMode": "none",     // "none" , "fill" , "uniform" , "uniformToFill"
+                "backgroundImageAlignment": "bottomRight",   // "center" , "left" , "top" , "right" , "bottom" , "topLeft" , "topRight" , "bottomLeft" , "bottomRight"
+                "backgroundImageOpacity": 0.5,     //floating point value from 0-1
+                "hidden": false
+
             }
         ]
     },
