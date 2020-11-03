@@ -14,7 +14,7 @@
 
     //"$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",//Windows PowerShell
 
     // Launch Settings
     "initialCols": 120,
@@ -63,7 +63,7 @@
             "colorScheme": "default",   ////Tango Light,Tango Dark,Solarized Light.Solarized Dark,One Half Light,One Half Dark,Vintage,Campbell Powershell
             // "selectionBackground": "#CCCCCC",
             "fontFace": "Cascadia Mono",    //Cascadia Code,to support ligatures use -> Cascadia Mono, 
-            "fontSize": 12,
+            "fontSize": 10,//12
             // "fontWeight": "normal",     // "normal" , "thin" , "extra-light" , "light" , "semi-light" , "medium" , "semi-bold" , "bold" , "extra-bold" , "black" , "extra-black" , 
             //or an integer corresponding to the numeric representation of the OpenType font weight
             "cursorShape": "bar",   //"bar", "vintage", "underscore", "filledBox", "emptyBox"
@@ -92,8 +92,8 @@
                 "foreground": "#05F2FE",
                 "background": "#172025",
                 "cursorShape": "bar",   //"bar", "vintage", "underscore", "filledBox", "emptyBox"
-                "fontFace": "Cascadia Code",    //to support ligatures use -> Cascadia Mono
-                "fontSize": 12,
+                "fontFace": "Cascadia Code PL",    //to support ligatures use -> Cascadia Mono
+                "fontSize": 10,//12,
                 "hidden": false,
                 "historySize": 9001,
                 "snapOnInput": true,
@@ -245,14 +245,14 @@
         { "command": "closeWindow", "keys": "alt+f4" },
         { "command": "toggleFullscreen", "keys": "alt+enter" },
         { "command": "toggleFullscreen", "keys": "f11" },
-        { "command": "toggleFocusMode" },
-        { "command": "toggleAlwaysOnTop" },
+        //{ "command": "toggleFocusMode" },
+        //{ "command": "toggleAlwaysOnTop" },
         { "command": "openNewTabDropdown", "keys": "ctrl+shift+space" },
         { "command": "openSettings", "keys": "ctrl+," },
         { "command": { "action": "openSettings", "target": "defaultsFile" }, "keys": "ctrl+alt+," },
         { "command": "find", "keys": "ctrl+shift+f" },
         { "command": "toggleRetroEffect", "keys": "ctrl+shift+R" },
-        { "command": "openTabColorPicker" },
+        //{ "command": "openTabColorPicker" },
 
         // Tab Management
         // "command": "closeTab" is unbound by default.
