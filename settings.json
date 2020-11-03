@@ -92,7 +92,7 @@
                 "foreground": "#05F2FE",
                 "background": "#172025",
                 "cursorShape": "bar",   //"bar", "vintage", "underscore", "filledBox", "emptyBox"
-                "fontFace": "Cascadia Code",    //to support ligatures use -> Cascadia Mono
+                "fontFace": "Cascadia Code PL",    //to support ligatures use -> Cascadia Mono
                 "fontSize": 12,
                 "hidden": false,
                 "historySize": 9001,
